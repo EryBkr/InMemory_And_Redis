@@ -8,7 +8,7 @@ komutuyla redis container ı docker ortamında 6380 portunda çalıştırıyoruz
 
 ```ruby
 `docker exec -it [container id] sh` 
-komutuyla redis arayüzüne geçiş yapıyoruz
+komutuyla redis arayüzüne geçiş yapıyoruz.Daha sonrasında `redis-cli` komutu ile cli kontrolünü aktif edebiliriz
 ```
 ### Redis String
 ```ruby
